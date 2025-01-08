@@ -1,0 +1,17 @@
+const Header = () => {
+  return (
+    <header>
+      <div>
+        logo
+        <nav>
+          <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  );
+};
+export default Header;
