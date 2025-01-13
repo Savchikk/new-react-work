@@ -1,0 +1,37 @@
+.listWrapper {
+}
+
+.listWrapper.bordered {
+  border: 1px solid rgb(163, 105, 105);
+}
+
+.listTitle {
+  color: green;
+  font-size: 28px;
+  line-height: 1.5;
+  position: relative;
+}
+@media screen and (max-width: 991px) {
+  .listTitle {
+    color: red;
+    font-size: 28px;
+    line-height: 1.5;
+  }
+}
+.list {
+  color: blue;
+  font-size: 40px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.list::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-color: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

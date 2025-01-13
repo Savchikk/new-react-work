@@ -2,7 +2,6 @@ const Header = () => {
   return (
     <header>
       <div>
-        logo
         <nav>
           <ul>
             <li>1</li>
