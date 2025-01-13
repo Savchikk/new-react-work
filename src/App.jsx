@@ -49,13 +49,10 @@ const App = () => {
       <Footer />
       <Message />
       <Message author="Igor" text="Продам холодильник" />
-      <Message author="Petro" text="Продам жопу" />
-      <Message author="Zlata" text="Продам sisi" />
+      <Message author="Petro" text="Продам vazon" />
+      <Message author="Zlata" text="Продам kaktus" />
       <Container>
         <List title="Movies" data={filmsData} />
-      </Container>
-      <Container>
-        <List title="Goods" data={goodsData} variant="bordered" />
       </Container>
       <List title="Movies" data={filmsData} />
       <List title="Goods" data={goodsData} variant="bordered" />
